@@ -139,6 +139,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="GFXElement.h" />
+    <ClInclude Include="GFXEx.h" />
+    <ClInclude Include="GFXExMan.h" />
+    <ClInclude Include="GFXRenderSlotMan.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GFXElement.cpp" />
+    <ClCompile Include="GFXEx.cpp" />
+    <ClCompile Include="GFXExMan.cpp" />
+    <ClCompile Include="GFXRenderSlotMan.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

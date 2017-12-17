@@ -13,5 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="GFX">
+      <UniqueIdentifier>{df2ca291-38ea-44e0-b39a-0d08a3ec8b4e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GFXElement.h">
+      <Filter>GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="GFXRenderSlotMan.h">
+      <Filter>GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="GFXEx.h">
+      <Filter>GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="GFXExMan.h">
+      <Filter>GFX</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GFXElement.cpp">
+      <Filter>GFX</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXRenderSlotMan.cpp">
+      <Filter>GFX</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXEx.cpp">
+      <Filter>GFX</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXExMan.cpp">
+      <Filter>GFX</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
